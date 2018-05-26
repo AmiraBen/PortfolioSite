@@ -1,6 +1,10 @@
 body {
 	margin: 0 auto;
 	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
 }
 header {
 	margin-top: 10px;
@@ -15,10 +19,10 @@ h1,h2 {
 h3 {
 	color: rgb(0,132,255);
 }
-body > p {
+article {
 	text-align: center;
-	margin-left:300px;
-	margin-right: 300px;
+	width:80%;
+	margin: 0 auto;
 }
 section {
 	border-bottom: #EEE solid 2px;
@@ -50,11 +54,10 @@ a:visited {
 	height: 100px;
 	width: 100px;
 }
-#dqsdz {
-	text-align: center;
-	width:100px;
-}
 footer {
-	margin:20px;
+
 	text-align: center;
+    width:80%;
+	margin: 0 auto;
+	padding: 20px;
 }
