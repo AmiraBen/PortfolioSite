@@ -6,6 +6,7 @@ body {
 	justify-content: center;
 
 }
+
 header {
 	margin-top: 10px;
 	padding-bottom: 10px;
@@ -13,17 +14,22 @@ header {
 	justify-content: center;
 	border-bottom: #333 solid 1px;
 }
-h1,h2 {
+
+h1,
+h2 {
 	text-align: center;
 }
+
 h3 {
 	color: rgb(0,132,255);
 }
+
 article {
 	text-align: center;
 	width:80%;
 	margin: 0 auto;
 }
+
 section {
 	border-bottom: #EEE solid 2px;
 	width: 100%;
@@ -32,32 +38,47 @@ section {
 	justify-content: center;
 	
 }
+
 a {
 	text-decoration: none;
 	color:black;
 }
+
 a:hover {
 	text-decoration: none;
 	color:rgb(0,132,255);
 }
+
 a:visited {
 	text-decoration: none;
 	color:rgb(0,132,255);
 }
+
 .card {
 	margin: 5px;
 }
-.card p,.card h3{
+
+.card p,
+.card h3 {
 	width:300px;
 }
+
 #logo {
 	height: 100px;
 	width: 100px;
 }
+
 footer {
 
 	text-align: center;
-    width:80%;
+	width:80%;
 	margin: 0 auto;
 	padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 300px;
+	max-height: 300px;
+    }
 }
