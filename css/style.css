@@ -30,7 +30,7 @@ article {
 	margin: 0 auto;
 }
 
-section {
+#works {
 	border-bottom: #EEE solid 2px;
 	width: 100%;
 	flex-wrap: wrap;
